@@ -32,6 +32,6 @@ public class Empregado {
         System.out.println("Nome: " + this.getNome());
         System.out.println("Bairro: "+ this.getEndereco().getBairro());
         System.out.println("Cidade: "+ this.getEndereco().getCidade());
-        System.out.println("Pais: "+ this.getEndereco().getPais());
+        System.out.print("Pais: "+ this.getEndereco().getPais());
     }
 }
