@@ -1,4 +1,4 @@
-
+package comida;
 
 public class Cogumelo extends Comida{
 

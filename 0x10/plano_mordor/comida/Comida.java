@@ -1,4 +1,4 @@
-
+package comida;
 
 public abstract class Comida {
 	

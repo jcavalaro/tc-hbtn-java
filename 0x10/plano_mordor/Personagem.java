@@ -21,11 +21,11 @@ public class Personagem {
          return new MuitoFeliz();
      }
      
-     // retorna um objeto da classe Humor
+     
  }
 
- public void comer(Comida[] comidas) { //same for (int x=0;x++;lista.lenght)
-     for (Comida papa : comidas){    //tipo do objeto referencia : listadoobjeto
+ public void comer(Comida[] comidas) { 
+     for (Comida papa : comidas){    
          int x = this.getPontosDeFelicidade();
           setPontosDeFelicidade(x += papa.getPontosDeFelicidade());
      }
@@ -35,10 +35,8 @@ public class Personagem {
 
  @Override
  public String toString() {
-     // para retornar <pontos de felicidade> - <humor>
+     
      return getPontosDeFelicidade() + " - " + obterHumorAtual().getClass().getSimpleName();
-     // Dica: para apresentar o nome da classe de uma referência utilize 
-     // objetoHumor.getClass().getName() ou objetoHumor.getClass().getSimpleName() 
-     // para nome da classe sem o pacote.
+    
  }
 }
