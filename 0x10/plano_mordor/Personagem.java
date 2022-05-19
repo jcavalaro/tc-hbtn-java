@@ -1,3 +1,6 @@
+import comida.Comida;
+import humor.*;
+
 public class Personagem {
     private int pontosDeFelicidade;
     

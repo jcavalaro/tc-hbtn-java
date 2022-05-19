@@ -1,3 +1,6 @@
+import comida.*;
+import humor.*;
+
 public class Program {
     public static void main(String[] args) {
         Personagem gandalf = new Personagem();
