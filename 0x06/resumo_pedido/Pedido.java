@@ -34,7 +34,7 @@ public class Pedido {
 			produtoTotal = produtoTotal + totalDeItens;
 			
 			System.out.printf("Tipo: %s  Titulo: %s  Preco: %.2f  Quant: %s  Total: %.2f\n", 
-					itemPedido.getClass().getSimpleName(), itemPedido.getProduto().getTitulo(), itemPedido.getProduto().obterPrecoLiquido(), itemPedido.getQuantidade(), totalDeItens);
+					itemPedido.getProduto().getClass().getSimpleName(), itemPedido.getProduto().getTitulo(), itemPedido.getProduto().obterPrecoLiquido(), itemPedido.getQuantidade(), totalDeItens);
 		}
 		desconto = (percentualDesconto / 100)*produtoTotal;
 		valorFinal = produtoTotal - desconto;
