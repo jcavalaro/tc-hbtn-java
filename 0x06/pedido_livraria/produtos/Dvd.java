@@ -8,7 +8,7 @@ public class Dvd extends Produto{
 	
 	@Override
 	public double obterPrecoLiquido() {
-		return getPrecoBruto() * 1,20;
+		return getPrecoBruto() * 1.20;
 	}
 	
 	public Dvd(String titulo, int ano, String pais, double precoBruto, String diretor, String genero, int duracao) {
