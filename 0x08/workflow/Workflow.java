@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-import atividade.Atividade;
+import atividades.Atividade;
 
 public class Workflow {
 	List<Atividade> atividades = new ArrayList<Atividade>();
