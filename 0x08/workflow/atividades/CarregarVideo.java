@@ -1,4 +1,4 @@
-package atividade;
+package atividades;
 
 import workflow.Workflow;
 
