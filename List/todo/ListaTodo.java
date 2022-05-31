@@ -48,9 +48,9 @@ public class ListaTodo {
 		for (Tarefa x : tarefa) {
 
 			if (x.isEstahFeita() == true) {
-				System.out.println("[x] Id: " + x.getIdentificador() + " - Descricao: " + x.getDescricao());
+				System.out.println("[x]  Id: " + x.getIdentificador() + " - Descricao: " + x.getDescricao());
 			} else {
-				System.out.println("[ ] Id: " + x.getIdentificador() + " - Descricao: " + x.getDescricao());
+				System.out.println("[ ]  Id: " + x.getIdentificador() + " - Descricao: " + x.getDescricao());
 			}
 		}
 	}
