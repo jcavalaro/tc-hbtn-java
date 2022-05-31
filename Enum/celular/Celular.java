@@ -23,7 +23,7 @@ public class Celular {
 
 	public void atualizarContato(Contato contatoAntigo, Contato novoContato) throws Exception {
 		if (obterPosicaoContato(contatoAntigo.getNome()) == -1) {
-			throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato nao existe.");
+			throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato nao existe");
 		} else if (obterPosicaoContato(novoContato.getNome()) != -1
 				&& obterPosicaoContato(novoContato.getNome()) != obterPosicaoContato(contatoAntigo.getNome())) {
 			throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato jah existente com esse nome");
