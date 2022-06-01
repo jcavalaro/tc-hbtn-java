@@ -3,7 +3,7 @@ import java.util.*;
 public class Banco {
 	private String nome;
 
-	List<Agencia> agencias;
+	ArrayList<Agencia> agencias;
 
 	public String getNome() {
 		return nome;
@@ -13,11 +13,11 @@ public class Banco {
 		this.nome = nome;
 	}
 
-	public List<Agencia> getAgencias() {
+	public ArrayList<Agencia> getAgencias() {
 		return agencias;
 	}
 
-	public void setAgencias(List<Agencia> agencias) {
+	public void setAgencias(ArrayList<Agencia> agencias) {
 		this.agencias = agencias;
 	}
 

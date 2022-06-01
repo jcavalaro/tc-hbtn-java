@@ -3,9 +3,9 @@ import java.util.*;
 public class Agencia {
 	private String nome; //nome da agencia
 
-	List<Cliente> clientes = new ArrayList<>();
+	ArrayList<Cliente> clientes = new ArrayList<>();
 
-	public List<Cliente> getClientes() {
+	public ArrayList<Cliente> getClientes() {
 		return clientes;
 	}
 

@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Cliente {
 	private String nome; //nome do cliente
-	List<Double> transacoes = new ArrayList<>();
+	ArrayList<Double> transacoes = new ArrayList<>();
 
 	public Cliente(String nome, double transacoes) {
 		this.nome = nome;
@@ -16,10 +16,10 @@ public class Cliente {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public List<Double> getTransacoes() {
+	public ArrayList<Double> getTransacoes() {
 		return transacoes;
 	}
-	public void setTransacoes(List<Double> transacoes) {
+	public void setTransacoes(ArrayList<Double> transacoes) {
 		this.transacoes = transacoes;
 	}
 
