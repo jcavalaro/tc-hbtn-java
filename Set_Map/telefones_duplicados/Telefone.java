@@ -32,9 +32,8 @@ public class Telefone {
 	@Override
 	public int hashCode() {
 		int hash = 5;
+		hash = hash + toString().hashCode();
 		
-		hash = 31 * hash + ((codigoArea == null) ? 0 : codigoArea.hashCode());
-		hash = 31 * hash + ((numero == null) ? 0 : numero.hashCode());
 		return hash;
 	}
 	
