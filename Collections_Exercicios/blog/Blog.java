@@ -8,8 +8,8 @@ public class Blog {
 		this.postagens = new ArrayList<>();
 	}
 
-	public void adicionarPostagem(Post listaPost) {
-		postagens.add(listaPost);
+	public void adicionarPostagem(Post postagem) {
+		postagens.add(postagem);
 		// adicionando lista de postagem
 	}
 
