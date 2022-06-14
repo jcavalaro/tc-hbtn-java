@@ -1,7 +1,4 @@
-public class Cliente {
-    
-}
-a
+
 public class Cliente {
 
 	private int codigo;
