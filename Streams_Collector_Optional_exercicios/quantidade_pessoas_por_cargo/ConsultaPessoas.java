@@ -18,6 +18,12 @@ A lista de cargos do TreeMap deve estar em ordem reversa.
 
     }
 
+    public static Map<String, Long> obterContagemPessoasPorCargo(List<Pessoa> pessoas){
+        Map<String, Long> map =
+                pessoas.stream()
+                        .collect(Collectors.groupingBy(Pessoa::getCargo, Collectors.counting()));
 
+        return map;
+    }
 
 }
